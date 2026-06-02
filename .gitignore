@@ -1,0 +1,70 @@
+## .NET e Visual Studio - Atualizado em 2025
+## Base: VisualStudio.gitignore + ajustes personalizados
+## Fonte: https://github.com/github/gitignore
+#Configurações específicas do usuário
+*.suo
+*.usuário
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.DotSettings.user
+#Criar pastas de saída
+[Si bemol]em/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug*/
+[Rr]liberar*/
+x64/
+x86/
+prédio/
+artefatos/
+#Arquivos de cache e banco de dados do Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+ipch/
+#Configurações locais de execução/depuração
+**/Propriedades/launchSettings.json
+#Resultados dos testes e da cobertura
+[Tt]Husa[Rr]resultado*/
+*.cobertura
+*.coveragexml
+*.VisualState.xml
+#Resultados de referência
+BenchmarkDotNet.Artifacts/
+#pacotes NuGet
+*.nupkg
+**/pacotes/*
+!**/pacotes/construir/
+*.nuget.props
+*.nuget.targets
+#Azure / configurações de publicação
+*.azurePubxml
+*.pubxml
+*.publishproj
+Publicar Scripts/
+*.configuraçõesdepublicação
+publicar/
+#Arquivos gerados/temporários
+*.cache
+*.pdb
+*.tmp
+*.registro
+*.bak
+#arquivos de banco de dados do SQL Server
+*.mdf
+*.ldf
+*.ndf
+#Dependências do Node.js
+node_modules/
+#IDE JetBrains Rider
+.ideia/
+*.sln.iml
+#Cache do Python (para soluções mistas .NET/Python)
+__pycache__/
+*.pyc
+#Substituições locais do Docker
+**/docker-compose.override.yml
+#Arquivos temporários/de backup diversos
+~$*
+*~
